@@ -5,8 +5,8 @@ const StarwarCards = props => {
     console.log(props);
     return(
         <div className="characterBox">
-            <h2>{props.results}</h2>
-            {/* <p>{props.results.height}</p> */}
+            <h2>{props.character.name}</h2>
+            <p>{props.character.height}</p>
         </div>
     )
 }
