@@ -1,3 +1,11 @@
+1. React JS is a library of javascript. One of the major problems it solves is how fast a web page can render. React JS makes a virtual DOM tree where the only branches that are updated are the ones that change instead of having to update the whole tree. This is why we separate our branches into components. When one component needs to render then it does, but the other components don’t need to. 
+2. It means thinking in terms of components so you are able to build effectively. Then you have to think in terms of what will actually be changing so you can use certain syntax of React like state. Its all about thinking of what is actually going to be rendering on the page and acting accordingly
+3. State is what actually is showing up on the web app. We use useState() to indicate when states of certain parts of our component that can change. 
+4. Props is just data we are sending from one component to another.
+5. Side effects is when a local function affects something outside of that function. useEffect() allows you to sync at the same time as when other things in the program are running. 
+
+
+
 # Sprint Challenge: React - Star Wars
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored ReactJS, Function Components, component state and side effects. In your challenge for this Sprint, you will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web and style that data nicely on the page.
