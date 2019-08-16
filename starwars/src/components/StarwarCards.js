@@ -1,14 +1,15 @@
 import React from 'react';
 //child of Starwars
 
-const StarwarsCards = props => {
+const StarwarCards = props => {
     console.log(props);
     return(
         <div className="characterBox">
-            <p>{props.character}</p>
+            <h2>{props.results}</h2>
+            {/* <p>{props.results.height}</p> */}
         </div>
     )
 }
 
 
-export default StarwarsCards;
+export default StarwarCards;
