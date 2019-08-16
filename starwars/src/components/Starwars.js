@@ -7,7 +7,7 @@ import styled from "styled-components";
 const Card = styled.div
 `
     display:flex;
-    flexwrap:wrap;
+    flex-wrap:wrap;
 `;
 
 export default function StarwarsCharacters() {
@@ -27,7 +27,7 @@ export default function StarwarsCharacters() {
 
     
     return(
-    <div className="conatiner">
+    <div className="container">
         {/* <div className="card"> */}
         <Card>
             {starCharacter.map(character =>{

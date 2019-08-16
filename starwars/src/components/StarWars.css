@@ -1,0 +1,18 @@
+.container{
+    margin-top:50px;
+    justify-content: space-between;
+}
+
+.fDLfKH{
+    display:flex;
+    justify-content: space-between;
+}
+
+.characterBox{
+    border:1px solid black;
+    color:lightyellow;
+    width:16%;
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+}
